@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--Inspired on Mikhail Timofeev code from classes-->
+<!--Based on Mikhail Timofeev code from classes-->
 <root>
-  <section name="Cars">
+  <section called="Cars">
     <entry>
       <item>Toyota Corolla</item>
       <price>9,350</price>
@@ -31,7 +31,7 @@
       <price>4,500</price>
     </entry>
   </section>
-  <section name="Motorbikes">
+  <section called="Motorbikes">
     <entry>
       <item>Honda CBR 600</item>
       <price>3,999</price>
@@ -57,7 +57,7 @@
       <price>14,500</price>
     </entry>
   </section>
-  <section name="Vans">
+  <section called="Vans">
     <entry>
       <item>Mercedes-Benz Sprinter 314</item>
       <price>24,941</price>
@@ -75,7 +75,7 @@
       <price>19,500</price>
     </entry>
     </section>
-  <section name="Trucks">
+  <section called="Trucks">
     <entry>
       <item>Ford Iveco grab truck</item>
       <price>26,500</price>
