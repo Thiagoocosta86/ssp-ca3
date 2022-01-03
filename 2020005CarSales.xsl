@@ -1,8 +1,8 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
-    <table id="menuTable" border="1" class="indent">
-        <thead>
+    <table id="CarsTable" border="1" class="indent">
+        <thead bgcolor="#FFA500">
             <tr>
                 <th>Select</th>
                 <th>Item</th>
@@ -12,17 +12,17 @@
         <tbody>
             <xsl:for-each select="//section">
                 <tr>
-                    <td colspan="3">
-                        <xsl:value-of select="@called" />
+                    <td colspan="4" bgcolor="#088F8F" >
+                        <xsl:value-of select="@called"/>
                     </td>
                 </tr>
                 <xsl:for-each select="entry">
                     <tr id="{position()}">
-                        <xsl:attribute called="brandnew">
+                        <xsl:attribute name="brandnew">
                             <xsl:value-of select="boolean(@brandnew)" />
                         </xsl:attribute>
                         <td align="center">
-                            <input called="item0" type="checkbox" />
+                            <input name="item0" type="checkbox" />
                         </td>
                         <td>
                             <xsl:value-of select="item" />
