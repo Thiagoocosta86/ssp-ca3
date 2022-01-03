@@ -1,129 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<table id="menuTable" border="1" class="indent">
-    <thead>
-        <tr>
-            <th>Select</th>
-            <th>Item</th>
-            <th>Price</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td colspan="3">Cars</td>
-        </tr>
-        <tr id="1" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Toyota Corolla</td>
-            <td align="right">9,350</td>
-        </tr>
-        <tr id="2" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Hyundai Tucson</td>
-            <td align="right">11,460</td>
-        </tr>
-        <tr id="3" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Volkswagen Tiguan</td>
-            <td align="right">17,000</td>
-        </tr>
-        <tr id="4" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Ford Focus</td>
-            <td align="right">5,800</td>
-        </tr>
-        <tr id="5" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Skoda Octavia</td>
-            <td align="right">8,990</td>
-        </tr>
-        <tr id="6" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Hyundai Kona</td>
-            <td align="right">15,900</td>
-        </tr>
-        <tr id="7" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Volkswagen Golf</td>
-            <td align="right">4,500</td>
-        </tr>
-        <tr>
-            <td colspan="3">Motorbikes</td>
-        </tr>
-        <tr id="1" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Honda CBR 600</td>
-            <td align="right">3,999</td>
-        </tr>
-        <tr id="2" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Suzuki GSXR 750</td>
-            <td align="right">3,350</td>
-        </tr>
-        <tr id="3" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Kawasaki ZX6R</td>
-            <td align="right">7,600</td>
-        </tr>
-        <tr id="4" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Honda Goldwing GL1500</td>
-            <td align="right">7,950</td>
-        </tr>
-        <tr id="5" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Yamaha MT-09</td>
-            <td align="right">8,250</td>
-        </tr>
-        <tr id="6" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Honda CBR 1000rr</td>
-            <td align="right">14,500</td>
-        </tr>
-        <tr>
-            <td colspan="3">Vans</td>
-        </tr>
-        <tr id="1" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Mercedes-Benz Sprinter 314</td>
-            <td align="right">24,941</td>
-        </tr>
-        <tr id="2" brandnew="true">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Ford Transit</td>
-            <td align="right">38,000</td>
-        </tr>
-        <tr id="3" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Ford Transit Connect</td>
-            <td align="right">16,150</td>
-        </tr>
-        <tr id="4" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Isuzu 7.5T</td>
-            <td align="right">19,500</td>
-        </tr>
-        <tr>
-            <td colspan="3">Trucks</td>
-        </tr>
-        <tr id="1" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Ford Iveco grab truck</td>
-            <td align="right">26,500</td>
-        </tr>
-        <tr id="2" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Mercedes 1318</td>
-            <td align="right">4,000</td>
-        </tr>
-        <tr id="3" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Isuzu Drop Side Lorry</td>
-            <td align="right">12,000</td>
-        </tr>
-        <tr id="4" brandnew="false">
-            <td align="center"><input name="item0" type="checkbox" /></td>
-            <td>Isuzu 7.5T</td>
-            <td align="right">19,500</td>
-        </tr>
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>2020005 Car Sales</title>
+      <style>
+				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
+				h2{margin-left:100px;font-size:140%;color:#0d3427;margin-top:10px}
+				table{margin-left:50px;background-color:#C1E1C1;border-color:#000;border-width:thin;border-collapse:collapse;width:75%}
+				th{border-color:#000;font-size:120%;color:#088F8F}
+				td{border-color:#000;font-size:100%;color:#000000;padding:5px}
+				</style>
+   </head>
+   <body>
+      <h2>2020005 Car Sales</h2>
+      <table id="CarsTable" border="1" class="indent">
+         <thead bgcolor="#FFA500">
+            <tr>
+               <th>Select</th>
+               <th>Item</th>
+               <th>Price</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td colspan="4" bgcolor="#088F8F">Cars</td>
+            </tr>
+            <tr id="1" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Toyota Corolla</td>
+               <td align="right">9,350</td>
+            </tr>
+            <tr id="2" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Hyundai Tucson</td>
+               <td align="right">11,460</td>
+            </tr>
+            <tr id="3" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Volkswagen Tiguan</td>
+               <td align="right">17,000</td>
+            </tr>
+            <tr id="4" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Ford Focus</td>
+               <td align="right">5,800</td>
+            </tr>
+            <tr id="5" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Skoda Octavia</td>
+               <td align="right">8,990</td>
+            </tr>
+            <tr id="6" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Hyundai Kona</td>
+               <td align="right">15,900</td>
+            </tr>
+            <tr id="7" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Volkswagen Golf</td>
+               <td align="right">4,500</td>
+            </tr>
+            <tr>
+               <td colspan="4" bgcolor="#088F8F">Motorbikes</td>
+            </tr>
+            <tr id="1" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Honda CBR 600</td>
+               <td align="right">3,999</td>
+            </tr>
+            <tr id="2" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Suzuki GSXR 750</td>
+               <td align="right">3,350</td>
+            </tr>
+            <tr id="3" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Kawasaki ZX6R</td>
+               <td align="right">7,600</td>
+            </tr>
+            <tr id="4" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Honda Goldwing GL1500</td>
+               <td align="right">7,950</td>
+            </tr>
+            <tr id="5" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Yamaha MT-09</td>
+               <td align="right">8,250</td>
+            </tr>
+            <tr id="6" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Honda CBR 1000rr</td>
+               <td align="right">14,500</td>
+            </tr>
+            <tr>
+               <td colspan="4" bgcolor="#088F8F">Vans</td>
+            </tr>
+            <tr id="1" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Mercedes-Benz Sprinter 314</td>
+               <td align="right">24,941</td>
+            </tr>
+            <tr id="2" brandnew="true">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Ford Transit</td>
+               <td align="right">38,000</td>
+            </tr>
+            <tr id="3" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Ford Transit Connect</td>
+               <td align="right">16,150</td>
+            </tr>
+            <tr id="4" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Isuzu 7.5T</td>
+               <td align="right">19,500</td>
+            </tr>
+            <tr>
+               <td colspan="4" bgcolor="#088F8F">Trucks</td>
+            </tr>
+            <tr id="1" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Ford Iveco grab truck</td>
+               <td align="right">26,500</td>
+            </tr>
+            <tr id="2" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Mercedes 1318</td>
+               <td align="right">4,000</td>
+            </tr>
+            <tr id="3" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Isuzu Drop Side Lorry</td>
+               <td align="right">12,000</td>
+            </tr>
+            <tr id="4" brandnew="false">
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Isuzu 7.5T</td>
+               <td align="right">19,500</td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
