@@ -5,8 +5,8 @@
 			<head>
 				<title>2020005 Car Sales</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<link rel="stylesheet" href="style.css" type="text/css" />
-    			<script src="script.js" defer></script>
+				<link rel="stylesheet" href="views/style.css" type="text/css" />
+    			<script src="views/script.js" defer></script>
 				
 			</head>
 			<body>
