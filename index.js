@@ -14,25 +14,25 @@ const router = express(),
 
 router.get('/get/html', function (req, res) {
 
-        res.writeHead(200, { 'Content-Type': 'text/html' });
+                res.writeHead(200, { 'Content-Type': 'text/html' });
 
-        let xml = fs.readFileSync('2020005CarSales.xml', 'utf8'),
-            xsl = fs.readFileSync('2020005CarSales.xsl', 'utf8');
+                let xml = fs.readFileSync('2020005CarSales.xml', 'utf8'),
+                xsl = fs.readFileSync('2020005CarSales.xsl', 'utf8');
 
-        console.log(xml);
-        console.log(xsl);
+                console.log(xml);
+                console.log(xsl);
 
-        let doc = xmlParse(xml),
-            stylesheet = xmlParse(xsl);
+                let doc = xmlParse(xml),
+                stylesheet = xmlParse(xsl);
 
-        console.log(doc);
-        console.log(stylesheet);
+                console.log(doc);
+                console.log(stylesheet);
 
-        let result = xsltProcess(doc, stylesheet);
+                let result = xsltProcess(doc, stylesheet);
 
-        console.log(result);
+                console.log(result);
 
-        res.end(result.toString());
+                res.end(result.toString());
 
 });
 
