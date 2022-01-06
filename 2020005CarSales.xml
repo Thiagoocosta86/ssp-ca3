@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--based on Mikhail code from classes-->
 <root>
   <section called="Cars">
     <entry>
@@ -10,7 +9,7 @@
       <item>Hyundai Tucson</item>
       <price>11,460</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Volkswagen Tiguan</item>
       <price>17,000</price>
     </entry>
@@ -18,11 +17,11 @@
       <item>Ford Focus</item>
       <price>5,800</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Skoda Octavia</item>
       <price>8,990</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Hyundai Kona</item>
       <price>15,900</price>
     </entry>
@@ -48,11 +47,11 @@
       <item>Honda Goldwing GL1500</item>
       <price>7,950</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Yamaha MT-09</item>
       <price>8,250</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Honda CBR 1000rr</item>
       <price>14,500</price>
     </entry>
@@ -62,7 +61,7 @@
       <item>Mercedes-Benz Sprinter 314</item>
       <price>24,941</price>
     </entry>
-    <entry brandnew = "true">
+    <entry brandnew="true">
       <item>Ford Transit</item>
       <price>38,000</price>
     </entry>
@@ -74,7 +73,7 @@
       <item>Isuzu 7.5T</item>
       <price>19,500</price>
     </entry>
-    </section>
+  </section>
   <section called="Trucks">
     <entry>
       <item>Ford Iveco grab truck</item>
@@ -92,5 +91,5 @@
       <item>Isuzu 7.5T</item>
       <price>19,500</price>
     </entry>
-    </section>
+  </section>
 </root>
