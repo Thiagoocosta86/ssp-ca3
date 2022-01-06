@@ -122,7 +122,7 @@
                     </tr>
                 </xsl:for-each>
             </xsl:for-each>
-        </body>
+        </tbody>
     </table>
 	<form class="indent">
 						<p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill"/>
