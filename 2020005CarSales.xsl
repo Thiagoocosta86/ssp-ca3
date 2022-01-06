@@ -8,7 +8,7 @@
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<style>
 				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
-				h2{margin-left:100px;font-size:140%;color:#0d3427;margin-top:10px}
+				h2{margin-left:100px;font-size:140%;color:#0d3427;margin-top:10px;text-transform: uppercase};
 				table{margin-left:50px;background-color:#C1E1C1;border-color:#000;border-width:thin;border-collapse:collapse;width:75%}
 				th{border-color:#000;font-size:120%;color:#088F8F}
 				td{border-color:#000;font-size:100%;color:#000000;padding:5px}
