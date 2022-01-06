@@ -12,7 +12,7 @@ const router = express(),
 
 router.use(express.static(path.resolve(__dirname,'views')));
 
-router.get('/', function (req, res) {
+router.get('/get/html', function (req, res) {
 
                 res.writeHead(200, { 'Content-Type': 'text/html' });
 
