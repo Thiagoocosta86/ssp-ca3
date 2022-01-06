@@ -10,7 +10,7 @@ const http = require('http'), //This module provides the HTTP server functionali
 const router = express(),
       server = http.createServer(router);
 
-
+router.use(express.static(path.resolve(_dirname,'views')));
 
 router.get('/', function (req, res) {
 
