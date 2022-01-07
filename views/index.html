@@ -19,13 +19,13 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-green">
             <div class="container">
-                <a class="navbar-brand" href="#">Car Sales</a>
+                <a id="nav" class="navbar-brand" href="#">Car Sales</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        
                         <li class="nav-item"><a class="nav-link" href="https://github.com/Thiagoocosta86/ssp-ca3">Link</a></li>
                     </ul>
                 </div>
@@ -38,6 +38,7 @@
                 <p class="lead">We're here to help you find your best deal for new wheels!</p>
                 <p>Right below you will find what you're looking for!</p>
             </div>
+        <div id="vehicleInOut"class="col-lg-4 mb-5 order-1>
             <div id="vehicles" class="col-lg-4 mb-5 order-1"><form enctype="application/json" action="/post/json" method="post">
                 <div class="form-group">
                     <select class="form-control" name="sec_n">
@@ -54,7 +55,10 @@
             <div class="d-grid gap-2">
             <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button></div>
             <p class="text-muted text-center">To delete an entree, click the required row first</p></div>
+        </div>
+        <div id="vehicleImage"class="col-lg-8 mb-5 order-2"></div>
             <div id="results" class="col-lg-8 mb-5 order-2"></div>
+        
             
         </div>
         <!-- Bootstrap core JS-->
