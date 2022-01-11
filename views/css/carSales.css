@@ -71,6 +71,38 @@ td{
 	left: 0px;
 	
 }
+.calculator{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 150%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+	padding: 15px;
+}
+.botao{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	margin: 3px;
+	background-color: rgb(31,31,31);
+	border: none;
+	color: #fff;
+}
+.botao:hover{
+	background-color: black;
+}
+#resul{
+	background-color: white;
+	width: 207px;
+	height: 35px;
+	margin: 5px;
+	font-size: 25px;
+	color: black;
+	text-align: right;
+	padding: 5px;
+}
 #footer1 {
 	margin-top: 10cm;
 	bottom:0;
