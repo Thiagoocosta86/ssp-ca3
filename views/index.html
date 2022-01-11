@@ -16,12 +16,13 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
         <script src="js/table.js"></script>
+        <script src="js/carSales.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-green">
             <div class="container">
-                <a id="nav" class="navbar-brand" href="#">Car Sales</a>
+                <a id="nav" class="navbar-brand" href=#>Car Sales</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -38,32 +39,81 @@
                 <p class="lead">We're here to help you find your best deal for new wheels!</p>
                 <p>Right below you will find what you're looking for!</p>
             </div>
-        <div id="vehicleInOut"class="col-lg-4 mb-5 order-1>
-            <div id="vehicles" class="col-lg-4 mb-5 order-1"><form enctype="application/json" action="/post/json" method="post">
-                <div class="form-group">
-                    <select class="form-control" name="sec_n">
-                        <option value="0">Cars</option>
-                        <option value="1">Motorbikes</option>
-                        <option value="2">Vans</option>
-                        <option value="3">Trucks</option>
-                    </select>
-                    <input class="form-control mt-3" type="text" name="item" placeholder="Item">
-                    <input class="form-control mt-3" type="text" name="price" placeholder="Price">
-                    <div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-block mt-3">Submit</button></div>
+            <div id="vehicleInOut"class="col-lg-4 mb-5">
+                <div id="vehicles" class="d-grid gap-2">
+                    <form name="form" enctype="application/json" action="/post/json" method="post">
+                        <div class="form-group">
+                            <select class="form-control" name="sec_n">
+                                <option value="0">Cars</option>
+                                <option value="1">Motorbikes</option>
+                                <option value="2">Vans</option>
+                                <option value="3">Trucks</option>
+                            </select>
+                            <input class="form-control mt-3" type="text" name="item" placeholder="Item">
+                            <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-success btn-block  mt-3">Submit</button>
+                            </div>
+                            
+                        </div>
+                    </form>
                 </div>
-            </form>
-            <div class="d-grid gap-2">
-            <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button></div>
-            <p class="text-muted text-center">To delete an entree, click the required row first</p></div>
-        </div>
-        <div id="vehicleImage"class="col-lg-8 mb-5 order-2"></div>
+                <div class="d-grid gap-2">
+                <button id="delete" class="btn btn-warning btn-block mt-3">Delete</button></div>
+                
+            </div>
+            
+            
             <div id="results" class="col-lg-8 mb-5 order-2"></div>
-        
+            
+            <div id="vehicleImage"class="vehicleImage">
+                    <img src="img/carBackground.jpg" alt="carBackground">
+            </div>
             
         </div>
+        <div>
+            <!-- Code based from previously CA3 Client Side-->
+            <footer id="footer1" class="bg-light text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">About us</h5>
+          
+                  <p>
+                    Car Sales was established in the early 2000s, it was founded by O'Donnel brothers, Tom and Mark. Before Car Sales Tom used to be a mechanic, so he has the experience needed to get the best vehicles the market can get.</p>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Contact us</h5>
+          
+                  <p>
+                    You are very welcome to contact us in our store or send us an email with any queries.
+                  </p>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-dark" href="https://github.com/Thiagoocosta86/ssp-ca3">Thiago Costa - 2020005 - Github Repository</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        </div>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
     </body>
 </html>
